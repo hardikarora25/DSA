@@ -3,12 +3,13 @@ package Array;
 public class hemlo {
     public static void main(String[] args) {
         
-    
+    // if conditions 
     int a = 10;
     if (a == 90) {
         System.out.println("hello world");
     
     }
+    // while loop 
 
     int counts = 1;
     while(counts != 6){
