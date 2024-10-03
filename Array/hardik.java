@@ -7,6 +7,7 @@ public class hardik {
         System.out.println("hey hello");
         Scanner input = new Scanner(System.in);
         System.out.println(input.nextline());
+        System.out.println(input.nextInt(5));
 
     }
     
