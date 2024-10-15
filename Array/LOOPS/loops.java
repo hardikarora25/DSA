@@ -1,4 +1,4 @@
-package Array;
+package Array.LOOPS;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class loops {
         */ 
         // print nos 1 to 5
         for (int num = 1; num <= 450; num += 90) {
-            System.out.println(num);,,
+            System.out.println(num);
         }
         // print numbers fro 1 to n 
         Scanner in = NEW Scanner(System.in);
