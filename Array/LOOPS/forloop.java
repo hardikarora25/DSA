@@ -13,6 +13,7 @@ public class forloop {
             
             for (int num = 0;num <= n ;num++ ){
                 System.out.println(num);
+                ;
             }
         }
     }
