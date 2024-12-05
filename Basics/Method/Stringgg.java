@@ -1,4 +1,4 @@
-package Array.Method;
+package Basics.Method;
 
 public class Stringgg {
     public static void main(String[] args) {

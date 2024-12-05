@@ -1,4 +1,4 @@
-package Array.LOOPS;
+package Basics.LoopS;
 
 import java.util.Scanner;
 

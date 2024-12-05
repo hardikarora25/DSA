@@ -1,4 +1,4 @@
-package Array.LOOPS;
+package Basics.LoopS;
 
 public class whileloop {
     public static void main(String[] args) {

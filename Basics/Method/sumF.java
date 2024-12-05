@@ -1,4 +1,4 @@
-package Array.Method;
+package Basics.Method;
 
 public class sumF {
     public static void main(String[] args) {

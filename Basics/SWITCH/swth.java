@@ -1,4 +1,4 @@
-package Array.SWITCH;
+package Basics.SWITCH;
 
 import java.util.Scanner;
 
