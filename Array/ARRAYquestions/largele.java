@@ -1,5 +1,5 @@
 package Array.ARRAYquestions;
-public class tuf {
+public class largele {
  
   public static void main(String args[]) {
  
