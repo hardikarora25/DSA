@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.nio.file.LinkOption;
+
 public class LinkedList {
     private Node head; // Head of the list
     private Node tail; // Tail of the list
@@ -27,6 +29,7 @@ public class LinkedList {
             System.out.print(temp.data + " -> ");
             temp = temp.next; // Move to the next node
         }
+        System.out.println();
     }
     public void gethead(){
         System.out.println("Head: " + head.data); // Print the data of the head node
@@ -44,4 +47,19 @@ public class LinkedList {
         size++; // Increment the size of the list
         
 }
+    public  LinkedList reverselist (){
+        Node previous = null; // Previous node
+        Node current = head; // Current node
+        Node next = null; // Next node
+
+        while (current != null) {
+            next = current.next;    // Store the next node
+            current.next = previous; // Reverse the link
+            previous = current;      // Move previous one up
+            current = next;          // Move current one up
+        }
+        head = previous; // Update head to the new first node
+        return this; // Return the modified list
+        
+    }
 }
