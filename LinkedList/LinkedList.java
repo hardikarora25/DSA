@@ -62,4 +62,27 @@ public class LinkedList {
         return this; // Return the modified list
         
     }
+    int getkthnodefromend(int k) {
+        if (k <= 0 || k > size) {
+            throw new IllegalArgumentException("k is out of bounds");
+        }
+        Node firstPointer = head;
+        Node secondPointer = head;
+
+        // Move firstPointer k nodes ahead
+        for (int i = 0; i < k; i++) {
+            if (firstPointer == null) {
+                return -1; // k is larger than the size of the list
+            }
+            firstPointer = firstPointer.next;
+        }
+
+        // Move both pointers until firstPointer reaches the end
+        while (firstPointer != null) {
+            firstPointer = firstPointer.next;
+            secondPointer = secondPointer.next;
+        }
+
+        return secondPointer.data; // Return the data of the kth node from the end
+    }
 }
