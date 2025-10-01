@@ -1,6 +1,6 @@
 package Array.ARRAYquestions;
 
-public class neww {
+public class secondlar {
     public static void main(String[] args) {
         /*to find the second largest number in an array  */
         int hr1[] = { 2, 5, 1, 3, 0 };
