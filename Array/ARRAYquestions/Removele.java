@@ -1,6 +1,6 @@
 package Array.ARRAYquestions;
 
-public class Solution {
+public class Removele {
     public int removeElement(int[] nums, int val) {
         int k=0;
         for (int i =0; i < nums.length;i++) {
